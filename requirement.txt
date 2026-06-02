@@ -1,0 +1,13 @@
+# Servidor Web e Framework
+flask==3.0.0
+gunicorn==21.2.0
+
+# Autenticação Segura e Identidade Gerenciada (Requisito de Segurança/IAM)
+azure-identity==1.15.0
+
+# Integração com Azure Key Vault (Requisito de Segurança/Secrets)
+azure-keyvault-secrets==4.7.0
+
+# Monitoramento e Telemetria (Requisito de Monitoramento)
+opencensus-ext-azure==1.1.13
+opencensus-ext-flask==0.1.1

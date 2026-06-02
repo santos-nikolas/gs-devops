@@ -23,7 +23,7 @@ def home():
         status_vault = f"Erro: {str(e)}"
 
     return jsonify({
-        "projeto": "OrbitalWatch - Monitoramento de Detritos",
+        "projeto": "OrbitalWatch - Sistema Ativo",
         "seguranca": {
             "protocolo": "HTTPS/TLS",
             "autenticacao": "Managed Identity (Sem senhas no código)",
